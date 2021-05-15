@@ -1,3 +1,4 @@
+import 'package:app1/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -7,11 +8,9 @@ void main(List<String> args) {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var data = 'satya';
+    
     return MaterialApp(
-      home: Container(
-        child: Text(data),
-      ),
+      home: Homepage(),
     );
   }
 }
