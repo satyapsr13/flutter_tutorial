@@ -5,8 +5,13 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var age = 34;
-    return Container(
-      child: Text('i am at $age'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('i am $age'),
+      ),
+     body: Container(
+        child: Text('i am at $age'),
+      ),
     );
   }
 }
